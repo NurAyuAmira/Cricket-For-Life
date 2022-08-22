@@ -11,7 +11,7 @@
 
 :root
 {
-    --color-primary: #1E392A;
+    --color-primary: #6c63ff;
     --color-success: #00bf8e;
     --color-warning: #f7c94b;
     --color-danger: #f75842;
@@ -19,9 +19,9 @@
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.7);
     --color-black: #000;
-    --color-bg: #E9c983;
-    --color-bg1: #1E392A;
-    --color-bg2: #828081;
+    --color-bg: #1f2641;
+    --color-bg1: #2e3267;
+    --color-bg2: #424890;
     
     --container-width-lg: 80%;
     --container-width-md: 90%;
@@ -36,7 +36,7 @@ body
     font-family: "Montserrat", sans-serif ;
     line-height: 1.7;
     color: var(--color-white);
-    background: #E9c983;
+    background: var(--color-bg);
 }
 
 .container
@@ -336,7 +336,7 @@ header
     align-items: center;
     gap:1.4rem;
     height: fit-content;
-    background: var(--color-bg2);
+    background: var(--color-primary);
     cursor: pointer;
 }
 
